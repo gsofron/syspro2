@@ -67,4 +67,4 @@ This connects to a server running on localhost at port 7856 and submits a job to
 
 ## University Project
 
-This project was developed as part of the 2nd assignment of the course **"Systems Programming"** (hence the name *syspro2*) course (6th semester, Spring 2024, Professor Alexandros Ntoulas) at the National and Kapodistrian University of Athens (NKUA). It received a grade of 100/100 along with excellent feedback.
+This project was developed as part of the 2nd assignment of the **"Systems Programming"** (hence the name *syspro2*) course (6th semester, Spring 2024, Professor Alexandros Ntoulas) at the National and Kapodistrian University of Athens (NKUA). It received a grade of 100/100 along with excellent feedback.
