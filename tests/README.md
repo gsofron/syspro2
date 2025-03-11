@@ -1,0 +1,1 @@
+The two test files, using the compiled version of `progDelay.c`, simply generate a series of jobs (i.e. `progDelay`s). The user can test the system by executing other commands using the client program and observe the system's behaviour.
