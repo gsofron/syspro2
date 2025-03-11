@@ -29,13 +29,13 @@ make
 ### Running the Server
 
 ```
-./jobExecutorServer [portnum] [bufferSize] [threadPoolSize]
+./bin/jobExecutorServer [portnum] [bufferSize] [threadPoolSize]
 ```
 
 Example:
 
 ```
-./jobExecutorServer 7856 8 5
+./bin/jobExecutorServer 7856 8 5
 ```
 
 This starts the server on port 7856 with a job queue buffer size of 8 and a thread pool of 5 worker threads.
@@ -43,13 +43,13 @@ This starts the server on port 7856 with a job queue buffer size of 8 and a thre
 ### Running the Client
 
 ```
-./jobCommander [serverName] [portNum] [command]
+./bin/jobCommander [serverName] [portNum] [command]
 ```
 
 Example (*issueJob* command):
 
 ```
-./jobCommander localhost 7856 issueJob ls -l
+./bin/jobCommander localhost 7856 issueJob ls -l
 ```
 
 This connects to a server running on localhost at port 7856 and submits a job to list directory contents.
